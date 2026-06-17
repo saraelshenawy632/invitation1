@@ -1,0 +1,247 @@
+.footer{
+
+  width:100%;
+
+  background:rgba(255,255,255,.08);
+
+  backdrop-filter:blur(18px);
+
+  -webkit-backdrop-filter:blur(18px);
+height:150px;
+
+  border-top:
+
+  1px solid rgba(212,175,55,.18);
+
+
+  padding:45px 20px 20px;
+
+
+  text-align:center;
+
+}
+
+
+/* content */
+
+.footer-content{
+
+  max-width:650px;
+
+  margin:auto;
+
+}
+
+
+
+/* title */
+
+.footer-content h2{
+
+
+  font-family:"Playfair Display",serif;
+
+
+  font-size:1.6rem;
+
+
+  margin-bottom:10px;
+
+
+  background:linear-gradient(
+
+    90deg,
+
+    #d4af37,
+
+    #8a6a00
+
+  );
+
+
+  -webkit-background-clip:text;
+
+  -webkit-text-fill-color:transparent;
+
+
+}
+
+
+
+/* paragraph */
+
+
+.footer-content p{
+
+
+  color:#6b665d;
+
+
+  font-family:"DM Sans",sans-serif;
+
+
+  font-size:.85rem;
+
+
+  line-height:1.6;
+
+
+  max-width:450px;
+
+
+  margin:auto;
+
+
+}
+
+
+
+/* Social */
+
+
+.social{
+
+
+  display:flex;
+
+
+  justify-content:center;
+
+
+  gap:14px;
+
+
+  margin:22px 0;
+
+
+}
+
+
+
+.social a{
+
+
+  width:38px;
+
+
+  height:38px;
+
+
+  display:flex;
+
+
+  justify-content:center;
+
+
+  align-items:center;
+
+
+
+  border-radius:50%;
+
+
+
+  background:rgba(212,175,55,.12);
+
+
+
+  color:#d4af37;
+
+
+
+  font-size:1rem;
+
+
+
+  transition:.3s ease;
+
+
+}
+
+
+
+.social a:hover{
+
+
+  background:#d4af37;
+
+
+  color:white;
+
+
+  transform:translateY(-3px);
+
+
+}
+
+
+
+
+/* Copyright */
+
+
+.copyright{
+
+
+  margin-top:15px;
+
+
+  color:#8a8276;
+
+
+  font-size:.75rem;
+
+
+}
+
+
+
+/* Mobile */
+
+
+@media(max-width:768px){
+
+
+.footer{
+
+
+  padding:35px 15px 18px;
+
+
+}
+
+
+
+.footer-content h2{
+
+
+  font-size:1.35rem;
+
+
+}
+
+
+
+.footer-content p{
+
+
+  font-size:.8rem;
+
+
+}
+
+
+
+.social a{
+
+
+  width:35px;
+
+  height:35px;
+
+
+}
+
+
+
+}

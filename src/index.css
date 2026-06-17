@@ -1,0 +1,39 @@
+:root{
+
+  --primary:#d4af37;
+  --primary-dark:#735c00;
+
+  --secondary:#ffb6c1;
+  --secondary-dark:#874e58;
+
+  --background:#f9f9f9;
+  --surface:#ffffff;
+
+  --text:#1a1c1c;
+  --text-light:#4d4635;
+
+  --border:#d0c5af;
+
+  --glass:rgba(255,255,255,.8);
+
+}
+
+body{
+
+  margin:0;
+
+  font-family:'DM Sans',sans-serif;
+
+  background:var(--background);
+
+  color:var(--text);
+
+  overflow-x:hidden;
+
+}
+
+h1,h2,h3{
+
+  font-family:'Playfair Display',serif;
+
+}

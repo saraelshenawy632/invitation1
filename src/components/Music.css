@@ -1,0 +1,37 @@
+.music-btn {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #d4af37, #f5d37a);
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.5);
+  z-index: 9999;
+  transition: .3s;
+}
+
+.music-btn:hover {
+  transform: scale(1.1);
+}
+
+/* حركة الدوران المضافة عندما يشتغل الصوت */
+.music-btn.playing {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
