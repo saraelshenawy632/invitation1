@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./details.css";
-import Music from "./Music"; // استدعاء كامبوننت الموسيقى
 
 import { 
   FaCalendarDays, 
@@ -115,7 +114,6 @@ function Details() {
         </a>
       </div>
 
-      <Music />
     </section>
   );
 }
