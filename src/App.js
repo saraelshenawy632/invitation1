@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
 import Home from './components/home'
 import Music from "./components/Music";
 import Wishes from "./components/wishes";
